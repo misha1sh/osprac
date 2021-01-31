@@ -1,0 +1,15 @@
+[user@laptopmishash oscourse]$ ./03-task1
+My pid = 3454, my ppid = 2058
+My pid = 3455, my ppid = 3454
+[user@laptopmishash oscourse]$ ./03-task1
+My pid = 3456, my ppid = 2058
+My pid = 3457, my ppid = 3456
+[user@laptopmishash oscourse]$ ./03-task1
+My pid = 3458, my ppid = 2058
+My pid = 3459, my ppid = 3458
+
+Идентификатор процесса, который запускает программу (терминала) = 2058
+Идентификаторы родителей: 3454, 3456, 3458
+Идентификаторы детей: 3455, 3457, 3459
+
+Как видно, идентификаторы присваиваются процессам по порядку
